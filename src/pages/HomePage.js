@@ -88,7 +88,7 @@ const HomePage = () => {
     }
     //after logging out
     else {
-      Navigate("/login");
+      // Navigate("/login");
     }
   }, [Navigate]);
   return (

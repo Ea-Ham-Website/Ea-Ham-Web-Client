@@ -20,7 +20,7 @@ function Footer() {
         </div>
         <div className={`${classes["footer-bottom"]}`}>
           <div className={`${classes["footer-menu"]}`}>
-            <ul className={`${classes["f-menu"]}`}>
+            {/* <ul className={`${classes["f-menu"]}`}>
               <li>
                 <Link to="/home">Home</Link>
               </li>
@@ -36,7 +36,7 @@ function Footer() {
               <li>
                 <Link to="/team">Team</Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <p>
             copyright &copy; <a href="#">EA HAM</a>{" "}

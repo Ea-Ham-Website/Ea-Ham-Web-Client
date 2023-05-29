@@ -55,7 +55,7 @@ const TeamMemberCard = (props) => {
           {/* <button className={classes.primary}>Message</button> */}
           {/* <button className={`${classes.primary} ${classes.ghost}`}>Following</button> */}
           {isAdmin && <button className={`${classes.primary} ${classes.ghost}`} onClick={removeHandler}>Delete</button>}
-          {isAdmin && <button onClick={addMemberHandler}>Add a New Team Member</button>}
+          {/* {isAdmin && <button onClick={addMemberHandler}>Add a New Team Member</button>} */}
         </div>
         {/* <div className={classes.skills}>
           <h6>Skills</h6>

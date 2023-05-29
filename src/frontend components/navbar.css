@@ -27,7 +27,7 @@
 }
 
 .nav-bar .logo{
-    height: 8vh;
+    height: 6vh;
 }
 
 .navigation .nav-items a{
@@ -119,13 +119,13 @@
     .navigation .nav-items{
         position: relative;
         background: #fff;
-        width: 400px;
-        max-width: 400px;
+        width: 450px;
+        max-width: 450px;
         display: grid;
         place-content: center;
         margin: 20px;
-        padding: 40px;
-        border-radius: 20px;
+        padding: 20px;
+        border-radius: 30px;
         box-shadow: 0 5px 25px rgba(0, 0, 0, 0.8);
         transform: translateY(-200px);
         transition: 0.3s ease;

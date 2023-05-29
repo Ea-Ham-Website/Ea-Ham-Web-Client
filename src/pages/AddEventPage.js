@@ -61,7 +61,7 @@ const AddEventPage = () => {
   const eventAddHandler = async (e) => {
     e.preventDefault();
     console.log(eventData);
-    Navigate("/adminHome");
+    Navigate("/events");
     const res = await axios({
       method: "post",
       url: "http://localhost:4000/addEvent",

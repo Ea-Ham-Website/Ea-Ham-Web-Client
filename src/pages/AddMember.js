@@ -20,7 +20,7 @@ const AddMember = () => {
   };
   const addMemberHandler = async(e) => {
     e.preventDefault();
-    Navigate("/adminHome")
+    Navigate("/team");
     const res = await axios({
         method: "post",
         url: "http://localhost:4000/addTeamMember",

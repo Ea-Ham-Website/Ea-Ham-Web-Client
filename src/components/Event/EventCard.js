@@ -112,6 +112,7 @@ const EventCard = (props) => {
     </Header> */}
           <Main>
             <div>
+            
               <div className="main">
                 <h1 className="title">{props.eventData.eventName}</h1>
                 <img src={Img} alt="event-poster" />
@@ -247,7 +248,7 @@ const EventCard = (props) => {
       )}
 
       {isAdmin && <button onClick={eventDeleteHandler}>Delete Event</button>}
-      {isAdmin && <button onClick={eventAddHandler}>Add Event</button>}
+      {/* {isAdmin && <button onClick={eventAddHandler}>Add Event</button>} */}
     </div>
   );
   // })
